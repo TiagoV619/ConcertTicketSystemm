@@ -1,4 +1,6 @@
-﻿namespace ConcertTicketSystem.DAL.Entity
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace ConcertTicketSystem.DAL.Entity
 {
     public class Ticket
     {
