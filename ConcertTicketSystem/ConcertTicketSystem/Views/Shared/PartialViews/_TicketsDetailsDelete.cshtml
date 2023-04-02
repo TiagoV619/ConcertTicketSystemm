@@ -1,0 +1,26 @@
+﻿@model ConcertTicketSystem.DAL.Entity.Ticket
+
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.UserDate)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.UserDate)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.IsUsed)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.IsUsed)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.EntranceGate)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.EntranceGate)
+        </dd>
+    </dl>
+</div>
